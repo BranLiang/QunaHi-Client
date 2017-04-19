@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import Qunahi from './containers/qunahi';
 import './index.css';
 
 ReactDOM.render(
-  <App />,
+  <Qunahi />,
   document.getElementById('root')
 );
