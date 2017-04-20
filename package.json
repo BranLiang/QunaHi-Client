@@ -1,13 +1,27 @@
 {
   "name": "qunahi-client",
   "version": "0.1.0",
+  "description": "Events manager",
+  "main": "index.js",
   "private": true,
   "devDependencies": {
-    "react-scripts": "0.9.5"
+    "react-scripts": "0.9.5",
+    "redux-devtools": "^3.3.2",
+    "redux-devtools-dock-monitor": "^1.1.1",
+    "redux-devtools-log-monitor": "^1.2.0"
   },
   "dependencies": {
+    "autoprefixer": "^6.7.7",
+    "lodash": "^4.17.4",
     "react": "^15.5.4",
-    "react-dom": "^15.5.4"
+    "react-dom": "^15.5.4",
+    "react-redux": "^5.0.4",
+    "react-router": "^4.1.1",
+    "react-router-redux": "^4.0.8",
+    "redux": "^3.6.0",
+    "redux-form": "^6.6.3",
+    "redux-saga": "^0.14.6",
+    "redux-thunk": "^2.2.0"
   },
   "scripts": {
     "start": "react-scripts start",
